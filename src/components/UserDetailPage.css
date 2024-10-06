@@ -1,0 +1,44 @@
+.user-detail {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.user-detail h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.user-detail p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.user-detail p span {
+  font-weight: bold;
+  color: #333;
+}
+
+.user-detail p {
+  word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+  .user-detail {
+    padding: 15px;
+  }
+
+  .user-detail h2 {
+    font-size: 1.5rem;
+  }
+
+  .user-detail p {
+    font-size: 1rem;
+  }
+}
